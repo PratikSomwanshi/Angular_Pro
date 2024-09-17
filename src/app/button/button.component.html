@@ -1,0 +1,47 @@
+<div class="space-y-4">
+    <div class="flex gap-4">
+        <h1 class="text-xl">Buttons</h1>
+        <button class="btn">btn</button>
+        <button class="btn btn-neutral">btn neutral</button>
+        <button class="btn btn-primary">btn primary</button>
+        <button class="btn btn-secondary">btn secondary</button>
+        <button class="btn btn-accent">btn accent</button>
+        <button class="btn btn-ghost">btn ghost</button>
+        <button class="btn btn-link">btn link</button>
+        <button class="btn btn-info">Info</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-error">Error</button>
+        <button class="btn btn-info btn-circle glass">glass</button>
+    </div>
+    <div class="flex gap-4">
+        <h1 class="text-xl">Buttons-Outline</h1>
+        <button class="btn btn-outline">btn</button>
+        <button class="btn btn-outline btn-neutral">btn neutral</button>
+        <button class="btn btn-outline btn-primary">btn primary</button>
+        <button class="btn btn-outline btn-secondary">btn secondary</button>
+        <button class="btn btn-outline btn-accent">btn accent</button>
+        <button class="btn btn-outline btn-ghost">btn ghost</button>
+        <button class="btn btn-outline btn-link">btn link</button>
+        <button class="btn btn-outline btn-info">Info</button>
+        <button class="btn btn-outline btn-success">Success</button>
+        <button class="btn btn-outline btn-warning">Warning</button>
+        <button class="btn btn-outline btn-wide btn-error">wide + Error</button>
+
+    </div>
+    <div>
+        <button [disabled]="true" class="btn">btn disabled</button>
+        <button class="btn">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
+            </svg>
+            icon start
+        </button>
+        <button class="btn">
+            <span class="loading loading-spinner"></span>
+            loading
+        </button>
+    </div>
+</div>
